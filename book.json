@@ -1,0 +1,28 @@
+{
+    "plugins": [
+        "-sharing",
+        "sharing-plus",
+        "donate"
+    ],
+    "pluginsConfig": {
+        "sharing": {
+            "qq": true,
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "weibo": true,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "instapaper"
+            ]
+        },
+        "donate": {
+            "alipay": "/images/alipay.png",
+            "title": "",
+            "button": "赏",
+            "alipayText": "支付宝捐赠"
+        }
+    }
+}
