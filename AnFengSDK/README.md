@@ -3,13 +3,13 @@
 ## 订阅功能
 
 
-- 订阅商品id  
+- **订阅商品id**
 
     com.subscription.rollergo.id1
 
-- 订阅方法  
+- **订阅方法**  
   
-  1.订阅调用
+  1.**订阅调用**
 
   ```java
   //cocos里对应调用android下的订阅方法,其中app对应当前Activity的实例，hasSubscription为AnFengSDK.showADRequest回调方法中已赋值的
@@ -40,7 +40,7 @@
     }
   ```
 
-  2.订阅相关回调  
+  2.**订阅相关回调**  
 
     2.1 **初始化时获取已订阅商品列表，处理对应订阅商品逻辑**
 
