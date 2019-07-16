@@ -70,7 +70,6 @@
                     }
                 } else {
                     Toast.makeText(app, "当前没有订阅", Toast.LENGTH_SHORT).show();
-                    Toast.makeText(app, "订阅2商品也没有订阅", Toast.LENGTH_SHORT).show();
                 }
             }
   ```
